@@ -133,3 +133,18 @@ main{
 .carousel-control-prev{
     display: flex;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body h3 {
+    margin-top: auto;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: transparent; 
+    color: #fff; 
+    outline: none; 
+}
